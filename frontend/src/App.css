@@ -1,0 +1,262 @@
+.Task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Task-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#t_task.strike {
+  text-decoration: line-through;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit,
+.del {
+  margin-right: 10px;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.modal form {
+  display: flex;
+  align-items: center;
+}
+
+.modal input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #dc3545;
+}
+/* ... (previous CSS rules) ... */
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit,
+.del {
+  margin-right: 15px; /* Increased margin for better spacing */
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal h1 {
+  font-size: 24px; /* Slightly larger header font size */
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.modal form {
+  display: flex;
+  align-items: center;
+}
+
+.modal input[type="text"] {
+  flex: 1;
+  padding: 12px; /* Increased padding for better input appearance */
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-right: 15px; /* Increased margin for better spacing */
+}
+
+.modal button {
+  padding: 12px 24px; /* Adjusted padding for the buttons */
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #dc3545;
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.Task-list {
+  width: 100%;
+  max-width: 600px; /* Adjust the value as needed */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.Task-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#t_task.strike {
+  text-decoration: line-through;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit,
+.del {
+  margin-right: 10px;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.modal form {
+  display: flex;
+  align-items: center;
+}
+
+.modal input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #dc3545;
+}

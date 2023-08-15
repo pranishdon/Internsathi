@@ -1,0 +1,40 @@
+/* Filter.css */
+
+/* Container for the filter dropdown */
+.filter-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for the select dropdown */
+.filter-select {
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  font-size: 18px; /* Increase font size for better readability */
+  border: 2px solid #007bff; /* Add a border with a blue color */
+  border-radius: 10px; /* Add rounded corners */
+  background-color: #ffffff; /* White background */
+  color: #333; /* Darker text color */
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s, background-color 0.2s; /* Smooth transitions */
+}
+
+.filter-select:hover {
+  border-color: #0056b3; /* Darker border color on hover */
+  background-color: #f0f0f0; /* Lighter background color on hover */
+}
+
+/* Style for the options in the dropdown */
+.filter-option {
+  font-size: 16px;
+  padding: 8px 10px; /* Adjust padding for options */
+}
+
+.filter-option:hover {
+  background-color: #007bff; /* Blue background on option hover */
+  color: #fff; /* White text color on option hover */
+}
+.filter-container {
+  margin-top: 10px; /* Adjust margin for the desired vertical spacing */
+  text-align: center;
+}

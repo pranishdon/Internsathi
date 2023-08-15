@@ -1,0 +1,18 @@
+/* Example styles, adjust as needed */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task button {
+  margin-left: 10px;
+}
+
+.task input {
+  margin-right: 10px;
+}
